@@ -1,0 +1,13 @@
+.close {
+    width: 100%;
+    text-align: left;
+    font-size: 50px;
+    cursor: pointer;
+}
+.close::before {
+    content: 'x';
+    color: black;
+    font-weight: 300;
+    font-family: Arial, sans-serif;
+    margin: 10px;
+}

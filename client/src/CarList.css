@@ -1,0 +1,12 @@
+.car-list {
+    margin: 25px;
+}
+.car-list:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.title {
+    background-color: lightblue;
+    font-size: 20px;
+    width: 100%;
+}
