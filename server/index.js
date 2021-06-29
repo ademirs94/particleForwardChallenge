@@ -13,9 +13,8 @@ const app = express();
 // Have Node serve the files for our built React app
 app.use(express.static(path.resolve(path.dirname(""), "client/build")));
 
-// Handle GET requests to /api route
+// Handle GET requests to /car route
 app.get("/car", (req, res) => {
-  //   const car = require("./car.json");
   res.json(car);
 });
 
